@@ -26,18 +26,22 @@ input:focus:-ms-input-placeholder,textarea:focus:-ms-input-placeholder {color:tr
 hr {display:none}
 legend,caption,dfn {position:absolute;overflow:hidden;width:0;height:0;font:0/0 m;color:transparent}
 
+/*#content-wrap {position: relative;}*/
+
+/*#wing {position: absolute;width: 90px;border:1px solid #d9d9d9;background-color: #fff;text-align: center;font-weight: bold;padding: 100px 0;font-size: 12px;left: 50%;margin-left: 629px;top: 150px;}*/
+
 #header,
 #footer {text-align: center;font-size: 15px;clear: both;width: 100%;padding: 60px 0;color: #555;background-color: #fff;}
 
 #header {border-bottom:1px solid #d0d0d0;font-weight: bold;}
 #footer {border-top:1px solid #cadb2a;font-weight: bold;}
 
-#wrap {width: 1210px;margin: 0	auto;padding-bottom: 50px;overflow: hidden;}
-.left-column {float: left;width:242px;font-size: 13px;}
+#wrap {width: 1258px;margin: 0	auto;padding-bottom: 50px;overflow: hidden;}
+.left-column {float: left;width:258px;font-size: 13px;}
 .menu {text-align: center;;margin-bottom: -1px;}
-.menu a {border:1px solid #d9dbe2;display: block;text-align: center;padding: 5px 0;margin-right: 12px;background-color: #fff;margin: 7px 12px 7px 0;}
+.menu a {border:1px solid #d9dbe2;display: block;text-align: center;padding: 5px 0;background-color: #fff;margin: 7px 32px 7px 0;}
 .toggle-name {font-weight: bold;}
-.scroll-box {margin-right: 12px;background-color: #fff;border:1px solid #d9dbe2;}
+.scroll-box {margin-right: 32px;background-color: #fff;border:1px solid #d9dbe2;}
 .scroll-box ul {padding-bottom: 10px;padding-top: 5px;}
 .scroll-box ul>li {text-align: left;padding: 5px 0 5px 10px;}
 .scroll-box ul>li a {font-weight: normal;}
@@ -45,12 +49,12 @@ legend,caption,dfn {position:absolute;overflow:hidden;width:0;height:0;font:0/0 
 .scroll-box ul.test-c li {padding: 0 0 0 0;margin-top: -1px;}
 .box-link {border:1px solid #d9dbe2;display: block;text-align: center;padding: 3px 0;margin: 0 10px;position: relative;z-index: 1}
 .box-link:hover {border-color:#00aebd;z-index: 10;}
-.content-column {float: right;width: 968px;}
+.content-column {float: right;width: 1000px;}
 .content-column.inherit-width {float: none;width: 100%;}
 .responsive-list {margin-top: 20px;}
 .responsive-list ul {overflow: hidden;width: 105%;}
-.responsive-list li {padding: 0 12px 12px 0;float: left;}
-.responsive-list li>a {display: block;position: relative;width: 230px;min-height: 372px;background: #fff;border: 1px solid #d9dbe2;position: relative\9;float: left;box-sizing: border-box;}
+.responsive-list li {padding: 0 32px 32px 0;float: left;}
+.responsive-list li>a {display: block;position: relative;width: 226px;min-height: 372px;background: #fff;border: 1px solid #d9dbe2;position: relative\9;float: left;box-sizing: border-box;}
 .fixed-pos {position: fixed;top: 7px;}
 .abs-pos {position: absolute;}
 .abs-pos .menu a {background-color: #00aebd;color: #fff;}
@@ -58,4 +62,9 @@ legend,caption,dfn {position:absolute;overflow:hidden;width:0;height:0;font:0/0 
 .closeBox ul {display: none;}
 .breadcrumb-wrap {padding: 10px 0 0 5px;color: #111;margin-bottom: -5px;position: relative;}
 .search-demo {position: absolute;right: 12px;top:0;}
-.inherit-width .breadcrumb-wrap {margin-left: 242px;}
+.inherit-width .breadcrumb-wrap {margin-left: 258px;}
+
+@media (max-width: 1257px) {
+  	#wrap {width: 1000px;}
+  	.content-column {width: 742px;}
+  }
